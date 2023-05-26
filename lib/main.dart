@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterproject/screens/Home.dart';
+import 'package:flutterproject/screens/guest/auth.dart';
+import 'package:flutterproject/screens/guest/password.dart';
 
 void main() => runApp(App());
 
@@ -10,8 +11,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: PasswordScreen(),
     );
   }
 }
- 
